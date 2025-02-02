@@ -282,6 +282,9 @@ footer p {
     width: 100%;
     max-width: 300px;
   }
+  #copy-message{
+    translate: -50% 0;
+  }
 }
 
 .copy-btn {
