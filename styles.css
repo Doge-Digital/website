@@ -256,6 +256,9 @@ footer p {
 
 /* Responsividade */
 @media (max-width: 768px) {
+  .header{
+    padding: 12px 0px;  
+  }
   .header .container {
     padding: 10px;
     text-align: center;
@@ -265,7 +268,8 @@ footer p {
     gap: 10px;
   }
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    margin-top: 40%;
   }
   .tagline-container {
     flex-wrap: wrap;
