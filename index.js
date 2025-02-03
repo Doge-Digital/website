@@ -24,7 +24,7 @@ function copyToClipboard() {
   
   document.querySelectorAll(".tagline-item").forEach(item => {
     item.addEventListener("click", () => {
-      location.href = "/index.html#services"; // Redireciona corretamente
+      location.href = "#services"; // Redireciona corretamente
     });
   });
   
