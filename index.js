@@ -24,7 +24,7 @@ function copyToClipboard() {
   
   document.querySelectorAll(".tagline-item").forEach(item => {
     item.addEventListener("click", () => {
-      location.href = "#services"; // Redireciona corretamente
+      location.href = "https://doge-digital.github.io/website/#services"; // Redireciona corretamente
     });
   });
   
